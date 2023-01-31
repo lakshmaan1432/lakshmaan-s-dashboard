@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+#heading {
+    background-color:whitesmoke;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-bottom: solid 1px gray;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.favapps {
+    width: 45%;
+    background-color: white;
+    border-radius: 10px;
+    border: solid 1px gray;
+}
+
+.favapps h1 {
+    padding: 10px;
+    border-bottom: solid 1px gray;
+}
+
+.apps {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.app {
+    width: 20%;
+    background-color: white;
+    padding: 5px;
+    border: solid 1px gray;
+    border-radius: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+.app img {
+    width: 100%;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.app img:hover{
+    width: 90%;
+}
+
+.notes {
+    width: 50%;
+    display: flex;
+    border-radius: 10px;
+    border: solid 1px gray;
+}
+
+.todo {
+    width: 50%;
+    text-align: center;
+}
+
+.task {
+    margin: auto;
+    padding: 5px;
+    display: flex;
+    border: solid 1px gray;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    justify-content: space-around;
+    width: 90%;
+}
+
+
+.task .mytask {
+    width: 90%;
+    font-size: 20px;
+    border: none;
+    padding: 4px;
+}
+
+.task .mytask:focus{
+    outline: none;
+}
+
+.notepad {
+    text-align: center;
+    width: 50%;
+}
+
+.notepad textarea {
+    resize: none;
+    border-radius: 10px;
+}
+
+textarea:focus{
+    outline: none;
+}
